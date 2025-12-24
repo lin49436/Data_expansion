@@ -53,6 +53,6 @@ def compare_csv_headers_detail(dir1, dir2):
             print(f"{i + 1:<4} | {files1[i]:<40} | ⚠️ 读取出错: {e}")
 
 # --- 使用示例 ---
-path_a = r'D:\Users\23093\OneDrive\benliu_computer\1.工作\6.云南电网\新型台区计量终端表计的风险预测与动态运维技术研究\9.系统所需数据\系统验收后数据扩充\outputs\electric_meter_data'
-path_b = r'D:\Users\23093\OneDrive\benliu_computer\1.工作\6.云南电网\新型台区计量终端表计的风险预测与动态运维技术研究\9.系统所需数据\系统验收后数据扩充\csv(2)'
+path_a = r'G:\work\tao_code\Data_expansion\outputs\electric_meter_data'
+path_b = r'G:\work\tao_code\csv(2)'
 compare_csv_headers_detail(path_a, path_b)
